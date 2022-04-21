@@ -6,7 +6,7 @@ function AtomPillar(props) {
   return (
     <mesh {...props} ref={mesh}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={"black"} />
+      <meshStandardMaterial color={'white'} />
     </mesh>
   )
 }
